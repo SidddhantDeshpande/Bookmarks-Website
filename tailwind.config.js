@@ -1,4 +1,4 @@
-const { backgroundImage } = require('tailwindcss/defaulttheme');
+
 
 module.exports = {
   darkMode: 'class',
@@ -38,6 +38,6 @@ module.exports = {
     }
   },
   plugins: [
-    require('flowbite/plugin')
+    
   ],
 }

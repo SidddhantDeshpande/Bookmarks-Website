@@ -1,5 +1,9 @@
+const { backgroundImage } = require('tailwindcss/defaulttheme');
+
 module.exports = {
-  content: ["*"],
+  darkMode: 'class',
+ 
+  content: ['index.html','./*.js'],
   theme: {
     extend: {
       colors:{
@@ -8,7 +12,16 @@ module.exports = {
         "bookmark-blue" : "#242A45",
         "bookmark-grey" : "#9194A2",
         "bookmark-white" : "#f7f7f7",
-      }
+        
+        "bookmark-dk-purple":"#4959FF",
+        "bookmark-dk-red" : "#D74F4F",
+        "bookmark-dk-blue" : "#849AFF",
+        "bookmark-dk-white" : "#BBC1FF",
+        "book-blk" : "#1E1E1E",
+        "mat-gr" : "#121212",
+
+      },
+     
     },
     fontFamily:{
       Poppins: ["Poppins,sans-serif"],
@@ -24,5 +37,7 @@ module.exports = {
       }
     }
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }

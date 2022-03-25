@@ -10,5 +10,35 @@
 }
 
 .btn-purple{
-    @apply bg-bookmark-purple text-white shadow-bookmark-purple
+    @apply bg-bookmark-purple dark:bg-bookmark-dk-purple text-white shadow-bookmark-purple dark:shadow-black
 }
+
+.slide-in {
+  animation: slide-in 1000ms ease;
+  display: inherit;
+}
+
+.slide-out {
+  animation: slide-out 1000ms ease;
+}
+
+.active-menu-btn {
+  transform: rotate(180deg);
+}
+@keyframes slide-in {
+  0% {
+    transform: translateY(-1000px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes slide-out {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-1000px);
+  }
+}
+

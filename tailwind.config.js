@@ -1,4 +1,4 @@
-
+// const { backgroundImage } = require('tailwindcss/defaulttheme');
 
 module.exports = {
   darkMode: 'class',
@@ -13,12 +13,13 @@ module.exports = {
         "bookmark-grey" : "#9194A2",
         "bookmark-white" : "#f7f7f7",
         
-        "bookmark-dk-purple":"#4959FF",
+        "bookmark-dk-purple":"#7653DA",
         "bookmark-dk-red" : "#D74F4F",
-        "bookmark-dk-blue" : "#849AFF",
-        "bookmark-dk-white" : "#BBC1FF",
+        "bookmark-dk-blue" : "#7653DA",
+        "bookmark-dk-white" : "#7653DA",
         "book-blk" : "#1E1E1E",
         "mat-gr" : "#121212",
+        
 
       },
      
